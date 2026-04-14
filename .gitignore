@@ -1,0 +1,43 @@
+# Dépendances
+node_modules/
+
+# Build outputs
+build/
+dist/
+*.tsbuildinfo
+
+# Tests
+coverage/
+
+# Variables d'environnement
+.env*
+!.env.example
+
+# Système de fichiers
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache Vite / PWA
+.vite/
+.cache/
+*-sw.js
+
+# Dossiers temporaires
+tmp/
+temp/
